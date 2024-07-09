@@ -1,0 +1,53 @@
+.returnButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.codeBlockContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  /* text-align: center;  */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.role-indicator,
+.student-count {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.codeEditor {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.smiley {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
