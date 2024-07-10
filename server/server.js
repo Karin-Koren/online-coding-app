@@ -17,7 +17,7 @@ app.use(express.static("public"));
 const server = http.createServer(app);
 const io = socketIO(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "online-coding-app-client-production.up.railway.app",
     methods: ["GET", "POST"],
   },
 });
